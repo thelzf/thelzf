@@ -1,4 +1,4 @@
-## 👋 Hey! I'm Luiz Felipe  
+##  Luiz Felipe  
 
 💻 **Full Stack Developer**, com foco em **Back-End (Laravel & PHP)**.  
 Atuo também no **Front-End** com **JavaScript, jQuery, CSS, Bootstrap** e **SQL** para entregar aplicações completas e eficientes. 🚀  
