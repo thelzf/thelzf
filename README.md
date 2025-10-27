@@ -1,7 +1,7 @@
 ##  Luiz Felipe  
 
-💻 **Full Stack Developer**, com foco em **Back-End (Laravel & PHP)**.  
-Atuo também no **Front-End** com **JavaScript, jQuery, CSS, Bootstrap** e **SQL** para entregar aplicações completas e eficientes. 🚀  
+💻 Full-stack developer, focusing on the back-end (Laravel & PHP). 
+Also front-end with JavaScript, jQuery, CSS, Bootstrap, and SQL to deliver complete and efficient applications. 🚀
 
 ---
 
@@ -14,7 +14,7 @@ Atuo também no **Front-End** com **JavaScript, jQuery, CSS, Bootstrap** e **SQL
 
 ---
 
-### 🧠 Tecnologias que uso no dia a dia
+### 🧠 Technologies I use on a daily basis
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Laravel" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg">
@@ -28,7 +28,7 @@ Atuo também no **Front-End** com **JavaScript, jQuery, CSS, Bootstrap** e **SQL
 
 ---
 
-### 📬 Contato
+### 📬 Contact
 
 <div>
   <a href = "mailto:luizf.btos19@gmail.com">
