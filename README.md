@@ -1,20 +1,20 @@
-## 👋 Hi, I'm Luiz Felipe  
+## Luiz Felipe  
 
-💻 **Full-stack Developer** (Pleno) focused on **Back-end** with **Laravel & PHP**.  
-I design and maintain **financial systems**, creating complex features such as **credit engines** and **API integrations**.  
-On the front-end, I use **JavaScript, jQuery, HTML, CSS, Bootstrap**, and **MySQL** to deliver complete and efficient solutions. 🚀  
+💻 **Full-stack Developer (Pleno)** focused on **Back-end with Laravel & PHP**.  
+I develop and maintain **financial systems**, building complex modules such as **credit analysis engines**, **API integrations**, and robust **back-end architectures**.  
+On the front-end, I work with **JavaScript, jQuery, HTML, CSS, Bootstrap**, and **MySQL** to deliver scalable and efficient solutions. 🚀  
 
 ---
 
 <div align="center">
   <a href="https://github.com/thelzf">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=thelzf&show_icons=true&theme=vue-dark&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=thelzf&show_icons=true&theme=vue-dark&hide_border=true" />
   </a>
 </div>
 
 ---
 
-### 🧠 Main Technologies
+### 🧠 Core Technologies
 
 <div align="center" style="display: inline_block"><br>
   <img align="center" alt="Laravel" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg">
@@ -29,16 +29,16 @@ On the front-end, I use **JavaScript, jQuery, HTML, CSS, Bootstrap**, and **MySQ
 
 ---
 
-### 🏗️ What I Build
+### 🏗️ Areas of Expertise
 
-- 🧮 Financial systems and **credit analysis engines**
-- 🔄 **API integrations** with external services
-- ⚙️ **Back-end automations** and business logic in Laravel
-- 🖥️ Complete applications with clean and scalable architecture
+- 🧮 **Credit scoring systems** and financial automation  
+- 🔄 **API design & integrations**  
+- ⚙️ **Laravel back-end architecture** and application performance  
+- 🧰 **Data-driven systems** using MySQL and PHP optimization  
 
 ---
 
-### 📫 Contact
+### 📬 Contact
 
 <div align="center">
   <a href="mailto:luizf.btos19@gmail.com">
@@ -55,5 +55,5 @@ On the front-end, I use **JavaScript, jQuery, HTML, CSS, Bootstrap**, and **MySQ
 ---
 
 <div align="center">
-  <sub>💡 “Code is like humor. When you have to explain it, it’s bad.”</sub>
+  <sub>💡 “Clean code always looks like it was written by someone who cares.”</sub>
 </div>
