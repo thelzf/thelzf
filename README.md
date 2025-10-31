@@ -8,8 +8,8 @@ On the front-end, I work with **JavaScript, jQuery, HTML, CSS, Bootstrap**, and 
 
 <div align="center">
 
-<!-- Avatar GIF -->
-<img src="https://i.imgur.com/QrdA87X.gif" alt="Luiz Felipe" width="150" style="border-radius: 50%;">
+<!-- Avatar - usando imagem estática como fallback -->
+<img src="https://avatars.githubusercontent.com/u/SEU_USER_ID?v=4" alt="Luiz Felipe" width="150" style="border-radius: 50%;">
 
 <!-- Nome e profissão -->
 <h2>Luiz Felipe</h2>
