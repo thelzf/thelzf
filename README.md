@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Avatar GIF -->
-<img src="https://prnt.sc/wm4u0U8o_p4l" alt="Luiz Felipe" width="150" style="border-radius: 50%;">
+<img src="https://i.imgur.com/QrdA87X.gif" alt="Luiz Felipe" width="150" style="border-radius: 50%;">
 
 <!-- Nome e profissão -->
 <h2>Luiz Felipe</h2>
