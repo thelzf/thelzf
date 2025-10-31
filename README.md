@@ -1,59 +1,60 @@
-## Luiz Felipe  
+<div align="center" style="font-family: Arial, sans-serif; line-height: 1.5;">
 
-💻 **Full-stack Developer (Pleno)** focused on **Back-end with Laravel & PHP**.  
-I develop and maintain **financial systems**, building complex modules such as **credit analysis engines**, **API integrations**, and robust **back-end architectures**.  
-On the front-end, I work with **JavaScript, jQuery, HTML, CSS, Bootstrap**, and **MySQL** to deliver scalable and efficient solutions. 🚀  
+  <!-- Avatar animado -->
+  <div style="display: inline-block; margin-bottom: 10px;">
+    <img src="https://i.imgur.com/your-avatar.gif" alt="Luiz Felipe" width="120" style="border-radius: 50%; animation: rotateHead 3s infinite alternate;">
+  </div>
 
----
+  <!-- Nome e profissão -->
+  <h2 style="margin: 5px 0;">Luiz Felipe</h2>
+  <p style="margin: 0; font-weight: 500; color: #555;">Full Stack Developer</p>
 
-<div align="center">
-  <a href="https://github.com/thelzf">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=thelzf&show_icons=true&theme=vue-dark&hide_border=true" />
-  </a>
+  <!-- Skills -->
+  <div style="margin-top: 15px; display: flex; justify-content: center; gap: 40px;">
+
+    <!-- Backend -->
+    <div style="text-align: center;">
+      <p style="margin: 0; font-weight: bold;">Backend</p>
+      <div class="stars">
+        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+      </div>
+    </div>
+
+    <!-- Frontend -->
+    <div style="text-align: center;">
+      <p style="margin: 0; font-weight: bold;">Frontend</p>
+      <div class="stars">
+        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+      </div>
+    </div>
+
+  </div>
 </div>
 
----
+<!-- CSS animado -->
+<style>
+  @keyframes rotateHead {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+  }
 
-### 🧠 Core Technologies
+  .stars span {
+    display: inline-block;
+    font-size: 20px;
+    opacity: 0.3;
+    animation: shine 1s infinite;
+    animation-fill-mode: forwards;
+  }
 
-<div align="center" style="display: inline_block"><br>
-  <img align="center" alt="Laravel" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg">
-  <img align="center" alt="PHP" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
-  <img align="center" alt="MySQL" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
-  <img align="center" alt="JavaScript" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
-  <img align="center" alt="jQuery" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg">
-  <img align="center" alt="HTML5" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS3" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Bootstrap" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
-</div>
+  .stars span:nth-child(1) { animation-delay: 0s; }
+  .stars span:nth-child(2) { animation-delay: 0.2s; }
+  .stars span:nth-child(3) { animation-delay: 0.4s; }
+  .stars span:nth-child(4) { animation-delay: 0.6s; }
+  .stars span:nth-child(5) { animation-delay: 0.8s; }
 
----
-
-### 🏗️ Areas of Expertise
-
-- 🧮 **Credit scoring systems** and financial automation  
-- 🔄 **API design & integrations**  
-- ⚙️ **Laravel back-end architecture** and application performance  
-- 🧰 **Data-driven systems** using MySQL and PHP optimization  
-
----
-
-### 📬 Contact
-
-<div align="center">
-  <a href="mailto:luizf.btos19@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-  <a href="https://wa.me/5517991474301" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
-  </a>
-  <a href="https://github.com/thelzf" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-</div>
-
----
-
-<div align="center">
-  <sub>💡 “Clean code always looks like it was written by someone who cares.”</sub>
-</div>
+  @keyframes shine {
+    0%, 50%, 100% { opacity: 0.3; }
+    25% { opacity: 1; }
+  }
+</style>
