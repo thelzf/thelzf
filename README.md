@@ -1,6 +1,6 @@
 ## Luiz Felipe  
 
-💻 **Full-stack Developer (Pleno)** focused on **Back-end with Laravel & PHP**.  
+💻 **Full-stack Developer ** focused on **Back-end with Laravel & PHP**.  
 I develop and maintain **financial systems**, building complex modules such as **credit analysis engines**, **API integrations**, and robust **back-end architectures**.  
 On the front-end, I work with **JavaScript, jQuery, HTML, CSS, Bootstrap**, and **MySQL** to deliver scalable and efficient solutions. 🚀  
 
