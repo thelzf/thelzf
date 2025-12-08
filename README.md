@@ -29,6 +29,7 @@ On the front-end, I work with **JavaScript, jQuery, HTML, CSS, Bootstrap**, and 
 
 </div>
 
+<!--
 ---
 
 <div align="center">
@@ -38,6 +39,8 @@ On the front-end, I work with **JavaScript, jQuery, HTML, CSS, Bootstrap**, and 
 </div>
 
 ---
+
+-->
 
 ### 🧠 Core Technologies
 
