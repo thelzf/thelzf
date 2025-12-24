@@ -32,11 +32,11 @@ On the front-end, I work with **JavaScript, jQuery, HTML, CSS, Bootstrap**, and 
 
 ---
 
-<div align="center">
+<!-- <div align="center">
   <a href="https://github.com/thelzf">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=thelzf&show_icons=true&theme=vue-dark&hide_border=true" />
   </a>
-</div>
+</div> -->
 
 ---
 
