@@ -1,8 +1,8 @@
 ## Luiz Felipe  
 
-💻 **💻 Software Engineer focused on Financial Systems, Data Engineering & Risk Analysis**  
+ Software Engineer specialized in Financial Systems & Risk Modeling**  
 
-I design and build **scalable financial systems**, focusing on **software architecture, data engineering, and performance optimization**.  
+I design and architect **scalable financial systems**, focusing on **software architecture, data engineering, and performance optimization**.  
 
 I develop complex platforms such as **credit analysis engines**, **data-driven financial workflows**, and high-performance **API integrations**, ensuring reliability, scalability, and clean architecture.  
 
