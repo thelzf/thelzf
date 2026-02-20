@@ -16,7 +16,7 @@ With strong expertise in **Laravel, PHP, and MySQL**, I engineer robust back-end
 
 <!-- Nome e profissão -->
 <h2>Luiz Felipe</h2>
-<p style="color: #555; font-weight: 500;">💻 Software Engineer focused on Financial Systems, Data Engineering & Risk Analysis</p>
+<p style="color: #555; font-weight: 500;">💻 Software Engineer focused on Financial Systems, Data Engineering & Risk Modeling</p>
 
 <!-- Skills com estrelas -->
 <!-- <div style="display: flex; justify-content: center; gap: 40px; margin-top: 10px;">
