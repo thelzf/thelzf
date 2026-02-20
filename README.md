@@ -1,9 +1,12 @@
 ## Luiz Felipe  
 
-💻 **Full-stack Developer** focused on **Back-end with Laravel & PHP**.  
-I develop and maintain **financial systems**, building complex modules such as **credit analysis engines**, **API integrations**, and robust **back-end architectures**.  
-On the front-end, I work with **JavaScript, jQuery, HTML, CSS, Bootstrap**, and **MySQL** to deliver scalable and efficient solutions. 🚀  
+💻 **💻 Software Engineer focused on Financial Systems, Data Engineering & Risk Analysis**  
 
+I design and build **scalable financial systems**, focusing on **software architecture, data engineering, and performance optimization**.  
+
+I develop complex platforms such as **credit analysis engines**, **data-driven financial workflows**, and high-performance **API integrations**, ensuring reliability, scalability, and clean architecture.  
+
+With strong expertise in **Laravel, PHP, and MySQL**, I engineer robust back-end systems and structured data solutions that support business-critical financial operations. 🚀
 ---
 
 <div align="center">
@@ -13,10 +16,10 @@ On the front-end, I work with **JavaScript, jQuery, HTML, CSS, Bootstrap**, and 
 
 <!-- Nome e profissão -->
 <h2>Luiz Felipe</h2>
-<p style="color: #555; font-weight: 500;">Full Stack Developer</p>
+<p style="color: #555; font-weight: 500;">💻 Software Engineer focused on Financial Systems, Data Engineering & Risk Analysis</p>
 
 <!-- Skills com estrelas -->
-<div style="display: flex; justify-content: center; gap: 40px; margin-top: 10px;">
+<!-- <div style="display: flex; justify-content: center; gap: 40px; margin-top: 10px;">
   <div style="text-align: center;">
     <p style="margin: 0; font-weight: bold;">Backend</p>
     <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
@@ -25,7 +28,7 @@ On the front-end, I work with **JavaScript, jQuery, HTML, CSS, Bootstrap**, and 
     <p style="margin: 0; font-weight: bold;">Frontend</p>
     <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
   </div>
-</div>
+</div> -->
 
 </div>
 
@@ -57,12 +60,13 @@ On the front-end, I work with **JavaScript, jQuery, HTML, CSS, Bootstrap**, and 
 
 ---
 
-### 🏗️ Areas of Expertise
+### 🏗️ Engineering Focus
 
-- 🧮 **Credit scoring systems** and financial automation  
-- 🔄 **API design & integrations**  
-- ⚙️ **Laravel back-end architecture** and application performance  
-- 🧰 **Data-driven systems** using MySQL and PHP optimization  
+- 🏛️ Scalable software architecture  
+- 📊 Data modeling & financial data engineering  
+- 🔄 API design & distributed system integrations  
+- ⚡ Performance optimization & database engineering  
+- 🧮 Credit risk & financial automation systems  
 
 ---
 
