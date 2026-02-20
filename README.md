@@ -1,12 +1,19 @@
-## Luiz Felipe  
 
- Software Engineer specialized in Financial Systems & Risk Modeling**  
+### Financial Software Engineer  
 
-I design and architect **scalable financial systems**, focusing on **software architecture, data engineering, and performance optimization**.  
+Architecting data-driven credit & risk platforms with scalable backend design.
 
-I develop complex platforms such as **credit analysis engines**, **data-driven financial workflows**, and high-performance **API integrations**, ensuring reliability, scalability, and clean architecture.  
+I build financial applications that power credit analysis, risk modeling, and automated decision workflows.
 
-With strong expertise in **Laravel, PHP, and MySQL**, I engineer robust back-end systems and structured data solutions that support business-critical financial operations. 🚀
+Core Engineering Domains:
+
+• Scalable software architecture  
+• Structured data modeling  
+• Credit & risk engines  
+• Performance-driven database engineering  
+• API-driven integrations  
+
+I design systems where data, business rules, and risk logic operate reliably at scale.
 ---
 
 <div align="center">
@@ -16,7 +23,7 @@ With strong expertise in **Laravel, PHP, and MySQL**, I engineer robust back-end
 
 <!-- Nome e profissão -->
 <h2>Luiz Felipe</h2>
-<p style="color: #555; font-weight: 500;">💻 Software Engineer focused on Financial Systems, Data Engineering & Risk Modeling</p>
+<p style="color: #555; font-weight: 500;">Financial Software Engineer | Credit & Risk Systems</p>
 
 <!-- Skills com estrelas -->
 <!-- <div style="display: flex; justify-content: center; gap: 40px; margin-top: 10px;">
@@ -41,11 +48,25 @@ With strong expertise in **Laravel, PHP, and MySQL**, I engineer robust back-end
   </a>
 </div> -->
 
+
+
+### 🏗️ Selected Engineering Impact
+
+- Designed an internal credit evaluation engine enabling automated customer limit decisions  
+- Optimized complex financial reporting queries to improve data retrieval performance  
+- Architected structured delinquency monitoring workflows for risk analysis
+  
+### 🏗️ Engineering Focus
+
+- Scalable software architecture  
+- Financial data modeling  
+- API design & system integrations  
+- Database performance optimization  
+- Credit risk & financial automation systems 
+
 ---
 
-
-
-### 🧠 Core Technologies
+### 🧠 Engineering Stack
 
 <div align="center" style="display: inline_block"><br>
   <img align="center" alt="Laravel" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg">
@@ -57,16 +78,6 @@ With strong expertise in **Laravel, PHP, and MySQL**, I engineer robust back-end
   <img align="center" alt="CSS3" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Bootstrap" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
 </div>
-
----
-
-### 🏗️ Engineering Focus
-
-- 🏛️ Scalable software architecture  
-- 📊 Data modeling & financial data engineering  
-- 🔄 API design & distributed system integrations  
-- ⚡ Performance optimization & database engineering  
-- 🧮 Credit risk & financial automation systems  
 
 ---
 
