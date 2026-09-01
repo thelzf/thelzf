@@ -1,19 +1,9 @@
+### Desenvolvedor Full Stack
 
-### Financial Software Engineer  
+Desenvolvo aplicações completas, da arquitetura e modelagem de dados à interface, integrações e automação de regras de negócio.
 
-Architecting data-driven credit & risk platforms with scalable backend design.
+Tenho experiência na construção de sistemas financeiros orientados a dados, com foco em análise de crédito, risco, performance, integrações via API e processos automatizados de decisão.
 
-I build financial applications that power credit analysis, risk modeling, and automated decision workflows.
-
-Core Engineering Domains:
-
-• Scalable software architecture  
-• Structured data modeling  
-• Credit & risk engines  
-• Performance-driven database engineering  
-• API-driven integrations  
-
-I design systems where data, business rules, and risk logic operate reliably at scale.
 ---
 
 <div align="center">
@@ -23,7 +13,7 @@ I design systems where data, business rules, and risk logic operate reliably at 
 
 <!-- Nome e profissão -->
 <h2>Luiz Felipe</h2>
-<p style="color: #555; font-weight: 500;">Financial Software Engineer | Credit & Risk Systems</p>
+<p style="color: #555; font-weight: 500;">Desenvolvedor Full Stack | Sistemas de Crédito e Risco</p>
 
 <!-- Skills com estrelas -->
 <!-- <div style="display: flex; justify-content: center; gap: 40px; margin-top: 10px;">
@@ -39,7 +29,6 @@ I design systems where data, business rules, and risk logic operate reliably at 
 
 </div>
 
-
 ---
 
 <!-- <div align="center">
@@ -48,25 +37,46 @@ I design systems where data, business rules, and risk logic operate reliably at 
   </a>
 </div> -->
 
+### 👨‍💻 Sobre mim
 
+Sou Desenvolvedor Full Stack e trabalho na criação de soluções que conectam tecnologia, dados e regras de negócio. Atuo em todo o ciclo de desenvolvimento: levantamento da solução, arquitetura, banco de dados, backend, APIs, integrações, frontend, validações e evolução do produto.
 
-### 🏗️ Selected Engineering Impact
+Meu foco é construir sistemas confiáveis, escaláveis e fáceis de manter, especialmente em contextos financeiros que exigem rastreabilidade, consistência e decisões baseadas em dados.
 
-- Designed an internal credit evaluation engine enabling automated customer limit decisions  
-- Optimized complex financial reporting queries to improve data retrieval performance  
-- Architected structured delinquency monitoring workflows for risk analysis
-  
-### 🏗️ Engineering Focus
+### 💳 Motor de crédito e análise de risco
 
-- Scalable software architecture  
-- Financial data modeling  
-- API design & system integrations  
-- Database performance optimization  
-- Credit risk & financial automation systems 
+Desenvolvi de ponta a ponta um motor de crédito completo, responsável por automatizar análises e apoiar decisões de aprovação ou reprovação.
+
+Entre as principais capacidades desenvolvidas estão:
+
+- Integração com bureaus de crédito, incluindo Serasa e outros provedores de dados.
+- Análise combinada de informações externas e dados internos da operação.
+- Avaliação da inadimplência de empresas para apoiar decisões de risco.
+- Aplicação de critérios e regras de negócio para aprovação ou reprovação.
+- Consolidação dos resultados em um fluxo único, rastreável e configurável.
+- Desenvolvimento de um módulo próprio de pontuação de score.
+- Criação e configuração de políticas de crédito.
+- Análises dinâmicas de acordo com diferentes perfis de clientes e empresas.
+- Estruturação de faixas, pesos, critérios e estratégias de decisão.
+- Integração entre dados, políticas e automações para tornar o processo de crédito mais rápido e consistente.
+
+Esse projeto reúne engenharia de software, modelagem financeira, integrações via API, tratamento de dados e automação de decisões críticas.
+
+### 🏗️ Áreas de atuação
+
+- Desenvolvimento Full Stack.
+- Arquitetura de software escalável.
+- Modelagem de dados financeiros.
+- APIs e integrações entre sistemas.
+- Motores de crédito, score e risco.
+- Automação de regras e processos de decisão.
+- Otimização de consultas e bancos de dados.
+- Interfaces administrativas e operacionais.
+- Manutenção e evolução de sistemas corporativos.
 
 ---
 
-### 🧠 Engineering Stack
+### 🧠 Tecnologias
 
 <div align="center" style="display: inline_block"><br>
   <img align="center" alt="Laravel" height="45" width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg">
@@ -81,7 +91,18 @@ I design systems where data, business rules, and risk logic operate reliably at 
 
 ---
 
-### 📬 Contact
+### 🚀 Projetos open source
+
+- [Larakit](https://github.com/thelzf/larakit) — pacote Laravel com helpers e utilitários voltados ao desenvolvimento de aplicações brasileiras, incluindo datas, CPF, CNPJ, telefones, moedas e manipulação de dados.
+- [jQuery DataTable Helper](https://github.com/thelzf/jquery-datatable-helper) — helper para inicialização e configuração de DataTables, com paginação, busca, ordenação e exportação para Excel, PDF, impressão e Word.
+- [Virtual Zoo](https://github.com/thelzf/virtual-zoo) — aplicação educacional em Laravel para organizar animais, taxonomia, habitats, comportamento e informações de conservação.
+- [SocialCover Photoshop Plugin](https://github.com/thelzf/socialcover-photoshop-plugin) — plugin para criação de capas e banners de redes sociais com modelos preparados para diferentes plataformas.
+- [Invictus Bot](https://github.com/thelzf/invictus-bot) — projeto de bot para Discord baseado no ecossistema Laravel e Laracord.
+- [Outros projetos](https://github.com/thelzf?tab=repositories) — bibliotecas, utilitários e experimentos publicados para a comunidade.
+
+---
+
+### 📬 Contato
 
 <div align="center">
   <a href="mailto:luizf.btos19@gmail.com">
@@ -95,5 +116,5 @@ I design systems where data, business rules, and risk logic operate reliably at 
 ---
 
 <div align="center">
-  <sub>💡 "Clean code always looks like it was written by someone who cares."</sub>
+  <sub>💡 “Código limpo sempre parece ter sido escrito por alguém que se importa.”</sub>
 </div>
