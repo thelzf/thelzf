@@ -1,4 +1,4 @@
-### Desenvolvedor Full Stack
+### Software Developer
 
 Desenvolvo aplicações completas, da arquitetura e modelagem de dados à interface, integrações e automação de regras de negócio.
 
@@ -13,7 +13,7 @@ Tenho experiência na construção de sistemas financeiros orientados a dados, c
 
 <!-- Nome e profissão -->
 <h2>Luiz Felipe</h2>
-<p style="color: #555; font-weight: 500;">Desenvolvedor Full Stack | Sistemas de Crédito e Risco</p>
+<p style="color: #555; font-weight: 500;">Software Developer | Sistemas de Crédito e Risco</p>
 
 <!-- Skills com estrelas -->
 <!-- <div style="display: flex; justify-content: center; gap: 40px; margin-top: 10px;">
