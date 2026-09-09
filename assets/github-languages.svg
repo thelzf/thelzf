@@ -18,24 +18,45 @@
   <text x="48" y="45" class="eyebrow">GITHUB / CODE SPECTRUM</text>
   <text x="48" y="80" class="heading">LINGUAGENS MAIS USADAS</text>
   <g>
-    <circle cx="64" cy="119" r="7" fill="#3178c6"/>
-    <text x="86" y="125" class="language">TypeScript</text>
+    <circle cx="64" cy="119" r="7" fill="#4F5D95"/>
+    <text x="86" y="125" class="language">PHP</text>
     <rect x="300" y="107" width="800" height="17" rx="8.5" fill="#0d1d31"/>
-    <rect x="300" y="107" width="400" height="17" rx="8.5" fill="#3178c6"/>
-    <text x="1140" y="125" class="percent">50.0%</text>
+    <rect x="300" y="107" width="800" height="17" rx="8.5" fill="#4F5D95"/>
+    <text x="1140" y="125" class="percent">100.0%</text>
   </g>
   <g>
-    <circle cx="64" cy="162" r="7" fill="#4F5D95"/>
-    <text x="86" y="168" class="language">PHP</text>
+    <circle cx="64" cy="162" r="7" fill="#f1e05a"/>
+    <text x="86" y="168" class="language">JavaScript</text>
     <rect x="300" y="150" width="800" height="17" rx="8.5" fill="#0d1d31"/>
-    <rect x="300" y="150" width="240" height="17" rx="8.5" fill="#4F5D95"/>
-    <text x="1140" y="168" class="percent">30.0%</text>
+    <rect x="300" y="150" width="4" height="17" rx="8.5" fill="#f1e05a"/>
+    <text x="1140" y="168" class="percent">0.0%</text>
   </g>
   <g>
-    <circle cx="64" cy="205" r="7" fill="#f1e05a"/>
-    <text x="86" y="211" class="language">JavaScript</text>
+    <circle cx="64" cy="205" r="7" fill="#663399"/>
+    <text x="86" y="211" class="language">CSS</text>
     <rect x="300" y="193" width="800" height="17" rx="8.5" fill="#0d1d31"/>
-    <rect x="300" y="193" width="160" height="17" rx="8.5" fill="#f1e05a"/>
-    <text x="1140" y="211" class="percent">20.0%</text>
+    <rect x="300" y="193" width="4" height="17" rx="8.5" fill="#663399"/>
+    <text x="1140" y="211" class="percent">0.0%</text>
+  </g>
+  <g>
+    <circle cx="64" cy="248" r="7" fill="#C1F12E"/>
+    <text x="86" y="254" class="language">Batchfile</text>
+    <rect x="300" y="236" width="800" height="17" rx="8.5" fill="#0d1d31"/>
+    <rect x="300" y="236" width="4" height="17" rx="8.5" fill="#C1F12E"/>
+    <text x="1140" y="254" class="percent">0.0%</text>
+  </g>
+  <g>
+    <circle cx="64" cy="291" r="7" fill="#e34c26"/>
+    <text x="86" y="297" class="language">HTML</text>
+    <rect x="300" y="279" width="800" height="17" rx="8.5" fill="#0d1d31"/>
+    <rect x="300" y="279" width="4" height="17" rx="8.5" fill="#e34c26"/>
+    <text x="1140" y="297" class="percent">0.0%</text>
+  </g>
+  <g>
+    <circle cx="64" cy="334" r="7" fill="#292929"/>
+    <text x="86" y="340" class="language">JSON</text>
+    <rect x="300" y="322" width="800" height="17" rx="8.5" fill="#0d1d31"/>
+    <rect x="300" y="322" width="4" height="17" rx="8.5" fill="#292929"/>
+    <text x="1140" y="340" class="percent">0.0%</text>
   </g>
 </svg>
