@@ -1,40 +1,8 @@
 <!-- github-dashboard:start -->
 <div align="center">
-
-<a href="https://github.com/thelzf">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:020617,45:0b3b91,100:38bdf8&amp;height=220&amp;section=header&amp;text=thelzf%20%7C%20GitHub&amp;fontSize=44&amp;fontColor=ffffff&amp;fontAlignY=36&amp;desc=Code.%20Projects.%20Progress.&amp;descSize=18&amp;descAlignY=56&amp;animation=fadeIn" width="100%" alt="thelzf | GitHub — Code. Projects. Progress.">
-</a>
-
-<p>
-  <a href="https://github.com/thelzf?tab=repositories">
-    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fthelzf&amp;query=%24.public_repos&amp;label=REPOSIT%C3%93RIOS&amp;logo=github&amp;style=for-the-badge&amp;color=1677ff&amp;labelColor=071426" alt="Repositórios públicos">
-  </a>
-  <a href="https://github.com/thelzf?tab=followers">
-    <img src="https://img.shields.io/github/followers/thelzf?label=FOLLOWERS&amp;logo=github&amp;style=for-the-badge&amp;color=1677ff&amp;labelColor=071426" alt="Seguidores no GitHub">
-  </a>
-  <a href="https://github.com/thelzf?tab=stars">
-    <img src="https://img.shields.io/github/stars/thelzf?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;color=1677ff&amp;labelColor=071426" alt="Estrelas recebidas">
-  </a>
-</p>
-
-<a href="https://github.com/thelzf">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=thelzf&amp;theme=github_dark" width="100%" alt="Contribuições e commits de thelzf">
-</a>
-
-<p>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=thelzf&amp;theme=github_dark" width="49%" alt="Estatísticas do perfil de thelzf">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=thelzf&amp;theme=github_dark" width="49%" alt="Linguagens mais usadas nos repositórios">
-</p>
-
-<a href="https://github.com/thelzf">
-  <img src="https://streak-stats.demolab.com?user=thelzf&amp;theme=github-dark-blue&amp;hide_border=true&amp;locale=pt_BR" width="100%" alt="Sequência e total de contribuições de thelzf">
-</a>
-
-<sub>BUILDING A BETTER TOMORROW</sub>
-
+  <img src="assets/profile-hero.png" width="100%" alt="Luiz Felipe — desenvolvedor em ambiente neon">
+  <img src="assets/github-dashboard.svg" width="100%" alt="Dashboard dinâmico do perfil GitHub de thelzf">
 </div>
-
----
 <!-- github-dashboard:end -->
 
 ### Software Developer
