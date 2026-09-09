@@ -12,6 +12,8 @@ test('dashboard workflow has safe triggers and minimum permissions', async () =>
   assert.match(workflow, /^\s*workflow_dispatch:/m);
   assert.match(workflow, /^\s*contents: write/m);
   assert.match(workflow, /node-version: ['"]?20['"]?/);
+  assert.match(workflow, /actions\/checkout@v5/);
+  assert.match(workflow, /actions\/setup-node@v5/);
   assert.match(workflow, /node scripts\/generate-dashboard\.mjs/);
   assert.match(workflow, /GITHUB_TOKEN:/);
   assert.match(workflow, /git diff --quiet -- assets\/github-dashboard\.svg/);
