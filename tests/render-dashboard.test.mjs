@@ -4,26 +4,17 @@ import test from 'node:test';
 
 import { renderDashboard } from '../scripts/dashboard/render-dashboard.mjs';
 
-test('renders escaped deterministic dashboard data', async () => {
+test('renders only the visual contribution calendar', async () => {
   const data = JSON.parse(
     await readFile(new URL('./fixtures/dashboard-data.json', import.meta.url)),
   );
 
-  const first = renderDashboard(data);
-  const second = renderDashboard(data);
+  const svg = renderDashboard(data);
 
-  assert.equal(first, second);
-  assert.match(first, /Luiz &amp; Felipe/);
-  assert.match(first, /REPOSITÓRIOS/);
-  assert.match(first, /<tspan x="36" dy="0">COMMITS<\/tspan><tspan x="36" dy="16">EM 2026<\/tspan>/);
-  assert.match(first, /TypeScript/);
-  assert.match(first, /50\.0%/);
-  assert.match(
-    first,
-    /<tspan x="36" dy="0">CONTRIBUIÇÕES<\/tspan><tspan x="36" dy="16">EM 2026<\/tspan>/,
-  );
-  assert.match(first, /class="sequence">CODE · BUILD · IMPROVE · REPEAT<\/text>/);
-  assert.match(first, /\.sequence \{[^}]*font-size: 12px;[^}]*letter-spacing: 1px;/);
+  assert.match(svg, /height="300"/);
+  assert.match(svg, /CONTRIBUIÇÕES \/ 2026/);
+  assert.match(svg, /Luiz &amp; Felipe/);
+  assert.doesNotMatch(svg, /REPOSITÓRIOS|TypeScript|ghp_never_render_this/);
 
   for (const color of [
     '#0d1829',
@@ -32,8 +23,6 @@ test('renders escaped deterministic dashboard data', async () => {
     '#1684ff',
     '#54c7ff',
   ]) {
-    assert.match(first, new RegExp(color));
+    assert.match(svg, new RegExp(color));
   }
-
-  assert.doesNotMatch(first, /ghp_never_render_this/);
 });
