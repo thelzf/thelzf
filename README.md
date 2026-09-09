@@ -11,16 +11,16 @@
     <td align="center"><strong>9</strong><br>Repositórios</td>
     <td align="center"><strong>11</strong><br>Seguidores</td>
     <td align="center"><strong>0</strong><br>Estrelas</td>
-    <td align="center"><strong>14</strong><br>Commits em 2026</td>
-    <td align="center"><strong>900</strong><br>Contribuições em 2026</td>
+    <td align="center"><strong>16</strong><br>Commits em 2026</td>
+    <td align="center"><strong>902</strong><br>Contribuições em 2026</td>
   </tr>
 </table>
 
 <h3>⌁ Linguagens mais usadas</h3>
 
 <code>████████████████████</code> PHP — 100.0%<br>
-<code>░░░░░░░░░░░░░░░░░░░░</code> CSS — 0.0%<br>
 <code>░░░░░░░░░░░░░░░░░░░░</code> JavaScript — 0.0%<br>
+<code>░░░░░░░░░░░░░░░░░░░░</code> CSS — 0.0%<br>
 <code>░░░░░░░░░░░░░░░░░░░░</code> Batchfile — 0.0%<br>
 <code>░░░░░░░░░░░░░░░░░░░░</code> HTML — 0.0%<br>
 <code>░░░░░░░░░░░░░░░░░░░░</code> JSON — 0.0%
