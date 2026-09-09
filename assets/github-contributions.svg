@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Calendário de contribuições de Luiz &amp; Felipe</title>
+  <desc id="desc">Mapa anual das contribuições públicas de thelzf no GitHub.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#01030a"/>
+      <stop offset="0.55" stop-color="#030712"/>
+      <stop offset="1" stop-color="#061936"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#1677ff"/>
+      <stop offset="1" stop-color="#54c7ff"/>
+    </linearGradient>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .eyebrow { fill: #38bdf8; font-size: 13px; font-weight: 700; letter-spacing: 4px; }
+      .heading { fill: #f8fafc; font-size: 25px; font-weight: 800; }
+      .muted { fill: #8eaccd; font-size: 12px; letter-spacing: 1px; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="298" rx="28" fill="url(#background)" stroke="#1684ff" stroke-width="2"/>
+  <path d="M32 4 H1168" stroke="url(#accent)" stroke-width="3" filter="url(#glow)"/>
+  <text x="48" y="48" class="eyebrow">GITHUB / ACTIVITY SIGNAL</text>
+  <text x="48" y="82" class="heading">CONTRIBUIÇÕES / 2026</text>
+  <text x="1152" y="78" text-anchor="end" class="muted">Luiz &amp; Felipe · @thelzf</text>
+  <text x="48" y="130" class="muted">DOM</text>
+  <text x="48" y="170" class="muted">TER</text>
+  <text x="48" y="210" class="muted">QUI</text>
+  <text x="48" y="250" class="muted">SÁB</text>
+  <rect x="112" y="118" width="13" height="13" rx="3" fill="#0d1829"><title>2026-01-04: 0 contribuições</title></rect><rect x="112" y="138" width="13" height="13" rx="3" fill="#0c2d6b"><title>2026-01-05: 1 contribuições</title></rect><rect x="112" y="158" width="13" height="13" rx="3" fill="#0754b8"><title>2026-01-06: 3 contribuições</title></rect><rect x="129" y="118" width="13" height="13" rx="3" fill="#1684ff"><title>2026-01-11: 6 contribuições</title></rect><rect x="129" y="138" width="13" height="13" rx="3" fill="#54c7ff"><title>2026-01-12: 10 contribuições</title></rect>
+  <g transform="translate(886 260)">
+    <text x="0" y="11" class="muted">MENOS</text>
+    <rect x="68" y="0" width="16" height="16" rx="4" fill="#0d1829"/><rect x="93" y="0" width="16" height="16" rx="4" fill="#0c2d6b"/><rect x="118" y="0" width="16" height="16" rx="4" fill="#0754b8"/><rect x="143" y="0" width="16" height="16" rx="4" fill="#1684ff"/><rect x="168" y="0" width="16" height="16" rx="4" fill="#54c7ff"/>
+    <text x="208" y="11" class="muted">MAIS</text>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+const escapeXml = (value) =>
+  String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&apos;');
+
+const formatNumber = (value) =>
+  new Intl.NumberFormat('pt-BR').format(Number(value) || 0);
+
+export function renderStatsSvg(data) {
+  const name = data.user.name || data.user.login;
+  const metrics = [
+    ['REPOSITÓRIOS', data.metrics.repositories],
+    ['FOLLOWERS', data.metrics.followers],
+    ['STARS', data.metrics.stars],
+    [`COMMITS EM ${data.year}`, data.metrics.commitsThisYear],
+    [`CONTRIBUIÇÕES EM ${data.year}`, data.metrics.contributionsThisYear],
+  ];
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">Estatísticas públicas de ${escapeXml(name)}</title>
+  <desc id="desc">Repositórios, seguidores, estrelas, commits e contribuições de ${escapeXml(data.user.login)}.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#01030a"/><stop offset=".55" stop-color="#030712"/><stop offset="1" stop-color="#061936"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#1677ff"/><stop offset="1" stop-color="#54c7ff"/></linearGradient>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .eyebrow { fill: #38bdf8; font-size: 13px; font-weight: 700; letter-spacing: 4px; }
+      .name { fill: #f8fafc; font-size: 25px; font-weight: 800; }
+      .label { fill: #8eaccd; font-size: 11px; font-weight: 700; letter-spacing: .7px; }
+      .metric { fill: #f8fafc; font-size: 32px; font-weight: 800; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="268" rx="28" fill="url(#background)" stroke="#1684ff" stroke-width="2"/>
+  <path d="M32 4 H1168" stroke="url(#accent)" stroke-width="3" filter="url(#glow)"/>
+  <text x="48" y="45" class="eyebrow">GITHUB / PROFILE SIGNALS</text>
+  <text x="1152" y="46" text-anchor="end" class="name">${escapeXml(name)}</text>
+  <g transform="translate(48 82)">
+${metrics.map(([label, value], index) => `    <g transform="translate(${index * 222} 0)">
+      <rect width="204" height="142" rx="18" fill="#081a31" stroke="#123769"/>
+      <rect x="18" y="20" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
+      <text x="36" y="42" class="label">${escapeXml(label)}</text>
+      <text x="22" y="105" class="metric">${escapeXml(formatNumber(value))}</text>
+    </g>`).join('\n')}
+  </g>
+</svg>
+`;
+}

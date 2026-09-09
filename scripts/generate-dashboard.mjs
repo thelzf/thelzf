@@ -3,15 +3,19 @@ import { dirname, resolve } from 'node:path';
 
 import { fetchGitHubData } from './dashboard/github-data.mjs';
 import { renderDashboard } from './dashboard/render-dashboard.mjs';
-import {
-  injectStatsMarkup,
-  renderStatsMarkup,
-} from './dashboard/render-stats-markup.mjs';
+import { renderLanguagesSvg } from './dashboard/render-languages-svg.mjs';
+import { renderStatsSvg } from './dashboard/render-stats-svg.mjs';
 
-const outputPath = resolve(
-  process.env.DASHBOARD_OUTPUT || 'assets/github-dashboard.svg',
+const statsOutput = resolve(
+  process.env.DASHBOARD_STATS_OUTPUT || 'assets/github-stats.svg',
 );
-const readmePath = resolve(process.env.DASHBOARD_README || 'README.md');
+const languagesOutput = resolve(
+  process.env.DASHBOARD_LANGUAGES_OUTPUT || 'assets/github-languages.svg',
+);
+const contributionsOutput = resolve(
+  process.env.DASHBOARD_CONTRIBUTIONS_OUTPUT ||
+    'assets/github-contributions.svg',
+);
 
 async function loadData() {
   if (process.env.DASHBOARD_DATA_FILE) {
@@ -28,14 +32,17 @@ async function loadData() {
 
 async function main() {
   const data = await loadData();
-  const svg = renderDashboard(data);
-  const readme = await readFile(readmePath, 'utf8');
-  const updatedReadme = injectStatsMarkup(readme, renderStatsMarkup(data));
+  const gadgets = [
+    [statsOutput, renderStatsSvg(data)],
+    [languagesOutput, renderLanguagesSvg(data)],
+    [contributionsOutput, renderDashboard(data)],
+  ];
 
-  await mkdir(dirname(outputPath), { recursive: true });
-  await writeAtomically(outputPath, svg);
-  await writeAtomically(readmePath, updatedReadme);
-  process.stdout.write(`Dashboard generated at ${outputPath} and ${readmePath}\n`);
+  for (const [path, svg] of gadgets) {
+    await mkdir(dirname(path), { recursive: true });
+    await writeAtomically(path, svg);
+  }
+  process.stdout.write(`Generated ${gadgets.length} profile gadgets\n`);
 }
 
 async function writeAtomically(path, content) {

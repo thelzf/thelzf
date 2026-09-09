@@ -1,35 +1,9 @@
 <!-- github-dashboard:start -->
 <div align="center">
   <img src="assets/profile-hero.png" width="100%" alt="Luiz Felipe — desenvolvedor em ambiente neon">
-</div>
-
-<!-- github-stats:start -->
-<h2>⚡ Luiz Felipe · GitHub Live</h2>
-
-<table>
-  <tr>
-    <td align="center"><strong>9</strong><br>Repositórios</td>
-    <td align="center"><strong>11</strong><br>Seguidores</td>
-    <td align="center"><strong>0</strong><br>Estrelas</td>
-    <td align="center"><strong>16</strong><br>Commits em 2026</td>
-    <td align="center"><strong>902</strong><br>Contribuições em 2026</td>
-  </tr>
-</table>
-
-<h3>⌁ Linguagens mais usadas</h3>
-
-<code>████████████████████</code> PHP — 100.0%<br>
-<code>░░░░░░░░░░░░░░░░░░░░</code> JavaScript — 0.0%<br>
-<code>░░░░░░░░░░░░░░░░░░░░</code> CSS — 0.0%<br>
-<code>░░░░░░░░░░░░░░░░░░░░</code> Batchfile — 0.0%<br>
-<code>░░░░░░░░░░░░░░░░░░░░</code> HTML — 0.0%<br>
-<code>░░░░░░░░░░░░░░░░░░░░</code> JSON — 0.0%
-
-<sub>Dados públicos do GitHub · atualizado em 09/09/2026 UTC</sub>
-<!-- github-stats:end -->
-
-<div align="center">
-  <img src="assets/github-dashboard.svg" width="100%" alt="Calendário de contribuições do perfil GitHub de thelzf">
+  <img src="assets/github-stats.svg" width="100%" alt="Estatísticas públicas do perfil GitHub de thelzf">
+  <img src="assets/github-languages.svg" width="100%" alt="Linguagens mais usadas nos repositórios de thelzf">
+  <img src="assets/github-contributions.svg" width="100%" alt="Calendário de contribuições do perfil GitHub de thelzf">
 </div>
 <!-- github-dashboard:end -->
 
