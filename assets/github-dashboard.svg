@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Dashboard GitHub de thelzf</title>
+  <desc id="desc">Estatísticas públicas, linguagens e contribuições anuais de Luiz &amp; Felipe.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#01030a"/>
+      <stop offset="0.52" stop-color="#030712"/>
+      <stop offset="1" stop-color="#061936"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#1677ff"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .eyebrow { fill: #38bdf8; font-size: 15px; font-weight: 700; letter-spacing: 5px; }
+      .title { fill: #f8fafc; font-size: 42px; font-weight: 800; }
+      .subtitle { fill: #8eaccd; font-size: 17px; }
+      .section { fill: #f8fafc; font-size: 19px; font-weight: 750; }
+      .label { fill: #8eaccd; font-size: 12px; font-weight: 700; letter-spacing: 1px; }
+      .metric { fill: #f8fafc; font-size: 31px; font-weight: 800; }
+      .language { fill: #f8fafc; font-size: 16px; font-weight: 600; }
+      .percent { fill: #8eaccd; font-size: 14px; text-anchor: end; }
+      .tiny { fill: #8eaccd; font-size: 12px; letter-spacing: 1px; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="718" rx="32" fill="url(#background)" stroke="#1684ff" stroke-width="2"/>
+  <path d="M35 5 H1165" stroke="url(#accent)" stroke-width="3" filter="url(#glow)"/>
+  <circle cx="1090" cy="86" r="50" fill="none" stroke="#1684ff" opacity=".35"/>
+  <circle cx="1090" cy="86" r="35" fill="none" stroke="#54c7ff" opacity=".7" filter="url(#glow)"/>
+  <path d="M1072 86h36M1090 68v36" stroke="#f8fafc" stroke-width="3" stroke-linecap="round"/>
+  <text x="58" y="58" class="eyebrow">GITHUB / LIVE PROFILE</text>
+  <text x="58" y="108" class="title">Luiz &amp; Felipe</text>
+  <text x="58" y="140" class="subtitle">@thelzf  ·  Software Developer</text>
+  <g transform="translate(58 184)">
+    
+    <g transform="translate(0 0)">
+      <rect width="204" height="112" rx="18" fill="#0a1b32" stroke="#123769"/>
+      <rect x="18" y="18" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
+      <text x="36" y="43" class="label">REPOSITÓRIOS</text>
+      <text x="22" y="86" class="metric">52</text>
+    </g>
+    <g transform="translate(222 0)">
+      <rect width="204" height="112" rx="18" fill="#0a1b32" stroke="#123769"/>
+      <rect x="18" y="18" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
+      <text x="36" y="43" class="label">FOLLOWERS</text>
+      <text x="22" y="86" class="metric">18</text>
+    </g>
+    <g transform="translate(444 0)">
+      <rect width="204" height="112" rx="18" fill="#0a1b32" stroke="#123769"/>
+      <rect x="18" y="18" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
+      <text x="36" y="43" class="label">STARS</text>
+      <text x="22" y="86" class="metric">127</text>
+    </g>
+    <g transform="translate(666 0)">
+      <rect width="204" height="112" rx="18" fill="#0a1b32" stroke="#123769"/>
+      <rect x="18" y="18" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
+      <text x="36" y="43" class="label">COMMITS EM 2026</text>
+      <text x="22" y="86" class="metric">124</text>
+    </g>
+    <g transform="translate(888 0)">
+      <rect width="204" height="112" rx="18" fill="#0a1b32" stroke="#123769"/>
+      <rect x="18" y="18" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
+      <text x="36" y="43" class="label">CONTRIBUIÇÕES EM 2026</text>
+      <text x="22" y="86" class="metric">248</text>
+    </g>
+  </g>
+  <line x1="58" y1="327" x2="1142" y2="327" stroke="#123769"/>
+  <text x="58" y="352" class="section">LINGUAGENS MAIS USADAS</text>
+  
+      <g>
+        <circle cx="72" cy="374" r="7" fill="#3178c6"/>
+        <text x="92" y="380" class="language">TypeScript</text>
+        <rect x="250" y="362" width="370" height="16" rx="8" fill="#0d1d31"/>
+        <rect x="250" y="362" width="185" height="16" rx="8" fill="#3178c6"/>
+        <text x="640" y="380" class="percent">50.0%</text>
+      </g>
+      <g>
+        <circle cx="72" cy="417" r="7" fill="#4F5D95"/>
+        <text x="92" y="423" class="language">PHP</text>
+        <rect x="250" y="405" width="370" height="16" rx="8" fill="#0d1d31"/>
+        <rect x="250" y="405" width="111" height="16" rx="8" fill="#4F5D95"/>
+        <text x="640" y="423" class="percent">30.0%</text>
+      </g>
+      <g>
+        <circle cx="72" cy="460" r="7" fill="#f1e05a"/>
+        <text x="92" y="466" class="language">JavaScript</text>
+        <rect x="250" y="448" width="370" height="16" rx="8" fill="#0d1d31"/>
+        <rect x="250" y="448" width="74" height="16" rx="8" fill="#f1e05a"/>
+        <text x="640" y="466" class="percent">20.0%</text>
+      </g>
+  <text x="720" y="352" class="section">CONTRIBUIÇÕES / 2026</text>
+  <rect x="742" y="374" width="11" height="11" rx="2" fill="#0d1829"><title>2026-01-04: 0 contribuições</title></rect><rect x="742" y="389" width="11" height="11" rx="2" fill="#0c2d6b"><title>2026-01-05: 1 contribuições</title></rect><rect x="742" y="404" width="11" height="11" rx="2" fill="#0754b8"><title>2026-01-06: 3 contribuições</title></rect><rect x="757" y="374" width="11" height="11" rx="2" fill="#1684ff"><title>2026-01-11: 6 contribuições</title></rect><rect x="757" y="389" width="11" height="11" rx="2" fill="#54c7ff"><title>2026-01-12: 10 contribuições</title></rect>
+  <g transform="translate(742 510)">
+    <text x="0" y="10" class="tiny">MENOS</text>
+    <rect x="58" y="0" width="14" height="14" rx="3" fill="#0d1829"/><rect x="80" y="0" width="14" height="14" rx="3" fill="#0c2d6b"/><rect x="102" y="0" width="14" height="14" rx="3" fill="#0754b8"/><rect x="124" y="0" width="14" height="14" rx="3" fill="#1684ff"/><rect x="146" y="0" width="14" height="14" rx="3" fill="#54c7ff"/>
+    <text x="181" y="10" class="tiny">MAIS</text>
+  </g>
+  <line x1="720" y1="560" x2="1142" y2="560" stroke="#123769"/>
+  <text x="720" y="594" class="eyebrow">CODE · BUILD · IMPROVE · REPEAT</text>
+  <text x="720" y="630" class="subtitle">BUILDING A BETTER TOMORROW</text>
+  <text x="58" y="681" class="tiny">DADOS PÚBLICOS DO GITHUB · ATUALIZADO EM 09/09/2026 UTC</text>
+  <path d="M1085 672h43l10 9-10 9h-43" fill="none" stroke="#38bdf8" stroke-width="2"/>
+</svg>
