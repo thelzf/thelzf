@@ -15,9 +15,15 @@ test('renders escaped deterministic dashboard data', async () => {
   assert.equal(first, second);
   assert.match(first, /Luiz &amp; Felipe/);
   assert.match(first, /REPOSITÓRIOS/);
-  assert.match(first, /COMMITS EM 2026/);
+  assert.match(first, /<tspan x="36" dy="0">COMMITS<\/tspan><tspan x="36" dy="16">EM 2026<\/tspan>/);
   assert.match(first, /TypeScript/);
   assert.match(first, /50\.0%/);
+  assert.match(
+    first,
+    /<tspan x="36" dy="0">CONTRIBUIÇÕES<\/tspan><tspan x="36" dy="16">EM 2026<\/tspan>/,
+  );
+  assert.match(first, /class="sequence">CODE · BUILD · IMPROVE · REPEAT<\/text>/);
+  assert.match(first, /\.sequence \{[^}]*font-size: 12px;[^}]*letter-spacing: 1px;/);
 
   for (const color of [
     '#0d1829',

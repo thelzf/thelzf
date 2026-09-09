@@ -25,6 +25,7 @@
       .metric { fill: #f8fafc; font-size: 31px; font-weight: 800; }
       .language { fill: #f8fafc; font-size: 16px; font-weight: 600; }
       .percent { fill: #8eaccd; font-size: 14px; text-anchor: end; }
+      .sequence { fill: #38bdf8; font-size: 12px; font-weight: 700; letter-spacing: 1px; }
       .tiny { fill: #8eaccd; font-size: 12px; letter-spacing: 1px; }
     </style>
   </defs>
@@ -41,31 +42,31 @@
     <g transform="translate(0 0)">
       <rect width="204" height="112" rx="18" fill="#0a1b32" stroke="#123769"/>
       <rect x="18" y="18" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
-      <text x="36" y="43" class="label">REPOSITÓRIOS</text>
+      <text x="36" y="35" class="label">REPOSITÓRIOS</text>
       <text x="22" y="86" class="metric">52</text>
     </g>
     <g transform="translate(222 0)">
       <rect width="204" height="112" rx="18" fill="#0a1b32" stroke="#123769"/>
       <rect x="18" y="18" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
-      <text x="36" y="43" class="label">FOLLOWERS</text>
+      <text x="36" y="35" class="label">FOLLOWERS</text>
       <text x="22" y="86" class="metric">18</text>
     </g>
     <g transform="translate(444 0)">
       <rect width="204" height="112" rx="18" fill="#0a1b32" stroke="#123769"/>
       <rect x="18" y="18" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
-      <text x="36" y="43" class="label">STARS</text>
+      <text x="36" y="35" class="label">STARS</text>
       <text x="22" y="86" class="metric">127</text>
     </g>
     <g transform="translate(666 0)">
       <rect width="204" height="112" rx="18" fill="#0a1b32" stroke="#123769"/>
       <rect x="18" y="18" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
-      <text x="36" y="43" class="label">COMMITS EM 2026</text>
+      <text x="36" y="35" class="label"><tspan x="36" dy="0">COMMITS</tspan><tspan x="36" dy="16">EM 2026</tspan></text>
       <text x="22" y="86" class="metric">124</text>
     </g>
     <g transform="translate(888 0)">
       <rect width="204" height="112" rx="18" fill="#0a1b32" stroke="#123769"/>
       <rect x="18" y="18" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
-      <text x="36" y="43" class="label">CONTRIBUIÇÕES EM 2026</text>
+      <text x="36" y="35" class="label"><tspan x="36" dy="0">CONTRIBUIÇÕES</tspan><tspan x="36" dy="16">EM 2026</tspan></text>
       <text x="22" y="86" class="metric">248</text>
     </g>
   </g>
@@ -101,7 +102,7 @@
     <text x="181" y="10" class="tiny">MAIS</text>
   </g>
   <line x1="720" y1="560" x2="1142" y2="560" stroke="#123769"/>
-  <text x="720" y="594" class="eyebrow">CODE · BUILD · IMPROVE · REPEAT</text>
+  <text x="720" y="594" class="sequence">CODE · BUILD · IMPROVE · REPEAT</text>
   <text x="720" y="630" class="subtitle">BUILDING A BETTER TOMORROW</text>
   <text x="58" y="681" class="tiny">DADOS PÚBLICOS DO GITHUB · ATUALIZADO EM 09/09/2026 UTC</text>
   <path d="M1085 672h43l10 9-10 9h-43" fill="none" stroke="#38bdf8" stroke-width="2"/>

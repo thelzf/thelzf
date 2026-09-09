@@ -29,11 +29,16 @@ const formatNumber = (value) =>
   new Intl.NumberFormat('pt-BR').format(Number(value) || 0);
 
 function metricCard({ x, width, label, value }) {
+  const labelParts = label.split(' EM ');
+  const labelMarkup =
+    labelParts.length === 2
+      ? `<tspan x="36" dy="0">${escapeXml(labelParts[0])}</tspan><tspan x="36" dy="16">EM ${escapeXml(labelParts[1])}</tspan>`
+      : escapeXml(label);
   return `
     <g transform="translate(${x} 0)">
       <rect width="${width}" height="112" rx="18" fill="${PALETTE.panelSoft}" stroke="${PALETTE.border}"/>
       <rect x="18" y="18" width="4" height="34" rx="2" fill="${PALETTE.primary}" filter="url(#glow)"/>
-      <text x="36" y="43" class="label">${escapeXml(label)}</text>
+      <text x="36" y="35" class="label">${labelMarkup}</text>
       <text x="22" y="86" class="metric">${escapeXml(formatNumber(value))}</text>
     </g>`;
 }
@@ -122,6 +127,7 @@ export function renderDashboard(data) {
       .metric { fill: ${PALETTE.text}; font-size: 31px; font-weight: 800; }
       .language { fill: ${PALETTE.text}; font-size: 16px; font-weight: 600; }
       .percent { fill: ${PALETTE.muted}; font-size: 14px; text-anchor: end; }
+      .sequence { fill: ${PALETTE.primary}; font-size: 12px; font-weight: 700; letter-spacing: 1px; }
       .tiny { fill: ${PALETTE.muted}; font-size: 12px; letter-spacing: 1px; }
     </style>
   </defs>
@@ -147,7 +153,7 @@ export function renderDashboard(data) {
     <text x="181" y="10" class="tiny">MAIS</text>
   </g>
   <line x1="720" y1="560" x2="1142" y2="560" stroke="${PALETTE.border}"/>
-  <text x="720" y="594" class="eyebrow">CODE · BUILD · IMPROVE · REPEAT</text>
+  <text x="720" y="594" class="sequence">CODE · BUILD · IMPROVE · REPEAT</text>
   <text x="720" y="630" class="subtitle">BUILDING A BETTER TOMORROW</text>
   <text x="58" y="681" class="tiny">DADOS PÚBLICOS DO GITHUB · ATUALIZADO EM ${escapeXml(generated)} UTC</text>
   <path d="M1085 672h43l10 9-10 9h-43" fill="none" stroke="${PALETTE.primary}" stroke-width="2"/>
