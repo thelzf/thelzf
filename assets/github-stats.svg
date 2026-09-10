@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
-  <title id="title">Estatísticas públicas de Luiz Felipe</title>
+  <title id="title">Estatísticas públicas de Luiz Felipe Scapolan</title>
   <desc id="desc">Repositórios, seguidores, estrelas, commits e contribuições de thelzf.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#01030a"/><stop offset=".55" stop-color="#030712"/><stop offset="1" stop-color="#061936"/></linearGradient>
@@ -16,7 +16,7 @@
   <rect x="1" y="1" width="1198" height="268" rx="28" fill="url(#background)" stroke="#1684ff" stroke-width="2"/>
   <path d="M32 4 H1168" stroke="url(#accent)" stroke-width="3" filter="url(#glow)"/>
   <text x="48" y="45" class="eyebrow">GITHUB / PROFILE SIGNALS</text>
-  <text x="1152" y="46" text-anchor="end" class="name">Luiz Felipe</text>
+  <text x="1152" y="46" text-anchor="end" class="name">Luiz Felipe Scapolan</text>
   <g transform="translate(48 82)">
     <g transform="translate(0 0)">
       <rect width="204" height="142" rx="18" fill="#081a31" stroke="#123769"/>
@@ -28,7 +28,7 @@
       <rect width="204" height="142" rx="18" fill="#081a31" stroke="#123769"/>
       <rect x="18" y="20" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
       <text x="36" y="42" class="label">FOLLOWERS</text>
-      <text x="22" y="105" class="metric">11</text>
+      <text x="22" y="105" class="metric">12</text>
     </g>
     <g transform="translate(444 0)">
       <rect width="204" height="142" rx="18" fill="#081a31" stroke="#123769"/>
@@ -46,7 +46,7 @@
       <rect width="204" height="142" rx="18" fill="#081a31" stroke="#123769"/>
       <rect x="18" y="20" width="4" height="34" rx="2" fill="#38bdf8" filter="url(#glow)"/>
       <text x="36" y="42" class="label">CONTRIBUIÇÕES EM 2026</text>
-      <text x="22" y="105" class="metric">903</text>
+      <text x="22" y="105" class="metric">909</text>
     </g>
   </g>
 </svg>
