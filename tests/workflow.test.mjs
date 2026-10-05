@@ -18,5 +18,7 @@ test('dashboard workflow has safe triggers and minimum permissions', async () =>
   assert.match(workflow, /GITHUB_TOKEN:/);
   assert.match(workflow, /git diff --quiet -- assets\/github-stats\.svg assets\/github-languages\.svg assets\/github-contributions\.svg/);
   assert.match(workflow, /git add assets\/github-stats\.svg assets\/github-languages\.svg assets\/github-contributions\.svg/);
-  assert.doesNotMatch(workflow, /^\s*(push|pull_request):/m);
+  assert.match(workflow, /^\s*push:/m);
+  assert.match(workflow, /- 'scripts\/\*\*'/);
+  assert.doesNotMatch(workflow, /^\s*pull_request:/m);
 });

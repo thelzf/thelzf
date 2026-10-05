@@ -1,6 +1,11 @@
 name: Update profile dashboard
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-profile-dashboard.yml'
+      - 'scripts/**'
   schedule:
     - cron: '17 6 * * *'
   workflow_dispatch:
