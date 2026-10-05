@@ -21,36 +21,36 @@
     <circle cx="64" cy="119" r="7" fill="#4F5D95"/>
     <text x="86" y="125" class="language">PHP</text>
     <rect x="300" y="107" width="800" height="17" rx="8.5" fill="#0d1d31"/>
-    <rect x="300" y="107" width="800" height="17" rx="8.5" fill="#4F5D95"/>
-    <text x="1140" y="125" class="percent">100.0%</text>
+    <rect x="300" y="107" width="297" height="17" rx="8.5" fill="#4F5D95"/>
+    <text x="1140" y="125" class="percent">37.1%</text>
   </g>
   <g>
     <circle cx="64" cy="162" r="7" fill="#f1e05a"/>
     <text x="86" y="168" class="language">JavaScript</text>
     <rect x="300" y="150" width="800" height="17" rx="8.5" fill="#0d1d31"/>
-    <rect x="300" y="150" width="4" height="17" rx="8.5" fill="#f1e05a"/>
-    <text x="1140" y="168" class="percent">0.0%</text>
+    <rect x="300" y="150" width="254" height="17" rx="8.5" fill="#f1e05a"/>
+    <text x="1140" y="168" class="percent">31.7%</text>
   </g>
   <g>
     <circle cx="64" cy="205" r="7" fill="#663399"/>
     <text x="86" y="211" class="language">CSS</text>
     <rect x="300" y="193" width="800" height="17" rx="8.5" fill="#0d1d31"/>
-    <rect x="300" y="193" width="4" height="17" rx="8.5" fill="#663399"/>
-    <text x="1140" y="211" class="percent">0.0%</text>
+    <rect x="300" y="193" width="101" height="17" rx="8.5" fill="#663399"/>
+    <text x="1140" y="211" class="percent">12.6%</text>
   </g>
   <g>
     <circle cx="64" cy="248" r="7" fill="#C1F12E"/>
     <text x="86" y="254" class="language">Batchfile</text>
     <rect x="300" y="236" width="800" height="17" rx="8.5" fill="#0d1d31"/>
-    <rect x="300" y="236" width="4" height="17" rx="8.5" fill="#C1F12E"/>
-    <text x="1140" y="254" class="percent">0.0%</text>
+    <rect x="300" y="236" width="100" height="17" rx="8.5" fill="#C1F12E"/>
+    <text x="1140" y="254" class="percent">12.5%</text>
   </g>
   <g>
     <circle cx="64" cy="291" r="7" fill="#e34c26"/>
     <text x="86" y="297" class="language">HTML</text>
     <rect x="300" y="279" width="800" height="17" rx="8.5" fill="#0d1d31"/>
-    <rect x="300" y="279" width="4" height="17" rx="8.5" fill="#e34c26"/>
-    <text x="1140" y="297" class="percent">0.0%</text>
+    <rect x="300" y="279" width="49" height="17" rx="8.5" fill="#e34c26"/>
+    <text x="1140" y="297" class="percent">6.1%</text>
   </g>
   <g>
     <circle cx="64" cy="334" r="7" fill="#292929"/>
