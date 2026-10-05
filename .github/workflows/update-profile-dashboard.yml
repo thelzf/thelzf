@@ -27,7 +27,7 @@ jobs:
 
       - name: Generate dashboard
         env:
-          GITHUB_TOKEN: ${{ secrets.PROFILE_READ_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.actions }}
           GITHUB_USER: thelzf
         run: node scripts/generate-dashboard.mjs
 

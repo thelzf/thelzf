@@ -11,5 +11,5 @@ test('dashboard queries owned repositories without restricting to public ones', 
 });
 
 test('dashboard workflow uses the private-repository read token secret', () => {
-  assert.match(workflow, /GITHUB_TOKEN:\s*\$\{\{\s*secrets\.PROFILE_READ_TOKEN\s*\}\}/);
+  assert.match(workflow, /GITHUB_TOKEN:\s*\$\{\{\s*secrets\.actions\s*\}\}/);
 });
