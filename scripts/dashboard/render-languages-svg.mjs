@@ -7,13 +7,31 @@ const escapeXml = (value) =>
     .replaceAll("'", '&apos;');
 
 export function renderLanguagesSvg(data) {
-  const total = data.languages.reduce(
+  const selected = [...data.languages]
+    .sort((left, right) => Number(right.size || 0) - Number(left.size || 0) || left.name.localeCompare(right.name))
+    .slice(0, 6);
+  const total = selected.reduce(
     (sum, language) => sum + Number(language.size || 0),
     0,
   );
-  const languages = data.languages.slice(0, 6).map((language) => ({
+  const exactPercentages = selected.map((language) =>
+    total === 0 ? 0 : (Number(language.size || 0) / total) * 100,
+  );
+  const roundedTenths = exactPercentages.map((percent) => Math.floor(percent * 10));
+  const remainingTenths = total === 0
+    ? 0
+    : 1000 - roundedTenths.reduce((sum, value) => sum + value, 0);
+  if (selected.length > 0) {
+    const remainders = exactPercentages
+      .map((percent, index) => ({ index, remainder: percent * 10 - roundedTenths[index] }))
+      .sort((left, right) => right.remainder - left.remainder || left.index - right.index);
+    for (let index = 0; index < remainingTenths; index += 1) {
+      roundedTenths[remainders[index % remainders.length].index] += 1;
+    }
+  }
+  const languages = selected.map((language, index) => ({
     ...language,
-    percent: total === 0 ? 0 : (Number(language.size) / total) * 100,
+    percent: roundedTenths[index] / 10,
   }));
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">

@@ -48,13 +48,19 @@ export function normalizeGitHubData(pages, generatedAt) {
   for (const page of pages) {
     for (const repository of page.user.repositories.nodes) {
       stars += repository.stargazerCount;
+      const languageTotal = repository.languages.edges.reduce(
+        (sum, edge) => sum + Number(edge.size || 0),
+        0,
+      );
+      if (languageTotal <= 0) continue;
+
       for (const edge of repository.languages.edges) {
         const current = languageMap.get(edge.node.name) || {
           name: edge.node.name,
           color: edge.node.color || '#8eaccd',
           size: 0,
         };
-        current.size += edge.size;
+        current.size += (Number(edge.size || 0) / languageTotal) * 100;
         languageMap.set(edge.node.name, current);
       }
     }
