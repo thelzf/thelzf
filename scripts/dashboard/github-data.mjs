@@ -21,7 +21,7 @@ const QUERY = `
           }
         }
       }
-      repositories(first: 100, after: $cursor, privacy: PUBLIC, ownerAffiliations: OWNER) {
+      repositories(first: 100, after: $cursor, ownerAffiliations: OWNER) {
         totalCount
         nodes {
           stargazerCount
